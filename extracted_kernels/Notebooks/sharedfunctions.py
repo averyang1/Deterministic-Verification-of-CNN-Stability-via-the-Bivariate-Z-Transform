@@ -4,7 +4,7 @@ from scipy.stats import wasserstein_distance
 from skimage import measure
 
 
-CSVPATH       = "/workspaces/CNNthesis/extracted_kernels/extractedKernels/resnet18_layer1_3x3.csv"
+CSVPATH       = "/workspaces/Deterministic-Verification-of-CNN-Stability-via-the-Bivariate-Z-Transform/extracted_kernels/extractedKernels/resnet18_layer1_3x3.csv"
 GRIDSIZE      = 128    # FFT grid (matches your ECC script)
 SIGMAGRID     = 32     # FFT grid for sigma (matches your existing sigma script)
 NTHRESH       = 100    # ECC threshold steps (matches your calculateECC)
